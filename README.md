@@ -12,8 +12,7 @@ Welcome to **Cr8 AI**! This SaaS platform enables users to create beautiful, per
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/username/cr8-ai.git
-   cd cr8-ai
+   (https://github.com/sayyedazka12/portfolio-maker)
    ```
 
 2. **Install dependencies:**
@@ -25,15 +24,12 @@ Welcome to **Cr8 AI**! This SaaS platform enables users to create beautiful, per
    Create a `.env` file in the root directory and configure the following:
 
    ```plaintext
-   DATABASE_URL=your_postgresql_database_url
-   AUTH_SECRET=your_auth_secret
-   FIREBASE_API_KEY=your_firebase_api_key
-   FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
-   FIREBASE_PROJECT_ID=your_firebase_project_id
-   FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
-   FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
-   FIREBASE_APP_ID=your_firebase_app_id
-   CLERK_API_KEY=your_clerk_api_key
+   NEXT_PUBLIC_DB_URL=
+   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+   CLERK_SECRET_KEY=
+   NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+   NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+   NEXT_PUBLIC_BASE_URL=http://localhost:3000/
    ```
 
 4. **Run the application:**
